@@ -9,7 +9,7 @@
     <script>
         function excluir(cod){
         if(confirm('Deseja realmente excluir o livro?')){
-        location.href='excluir.php?cod='+cod;
+        location.href='excluirLivro.php?cod='+cod;
             }
         }
        </script>
@@ -26,7 +26,7 @@
             <form action="consultarLivro.php" method="get" class="form-inline">
                 <br>
                 <label>
-                   <p class="text-info"><i>Busque pelo TÃ­tulo ou pelo nome do Autor do Livro:</i></p>
+                   <p class="text-info"><i>Busque pelo Titulo ou pelo nome do Autor do Livro:</i></p>
                    <input type="text" name="valor">
                                   
                 </label>
@@ -67,9 +67,9 @@
                     <th>Autor</th>
                     <th>Ano</th>
                     <th>Editora</th>
-                    <th>AvaliaÃ§Ã£o</th>
+                    <th>Avaliação</th>
                     <th>Cor da Capa</th>
-                    <th>LocalizaÃ§Ã£o</th>
+                    <th>Localização</th>
                     <th>Editar</th>
                     <th>Excluir</th>
                     </tr>
